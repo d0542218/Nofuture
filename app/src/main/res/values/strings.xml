@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">future_app</string>
+    <string name="textview">TextView</string>
+    <string name="todo">TODO</string>
+    <string-array name="drugNum">
+        <item>1/2</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+</resources>
