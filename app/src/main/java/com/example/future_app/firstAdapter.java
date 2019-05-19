@@ -1,7 +1,6 @@
 package com.example.future_app;
 
 import android.app.Activity;
-import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,10 +10,10 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-public class fuckYouAdapter extends ArrayAdapter {
+public class firstAdapter extends ArrayAdapter {
     ArrayList<String> day;
     //建構式
-    public fuckYouAdapter(Activity context, ArrayList<String> day){
+    public firstAdapter(Activity context, ArrayList<String> day){
         super(context,0,day);
         this.day = day;
     }
@@ -30,7 +29,6 @@ public class fuckYouAdapter extends ArrayAdapter {
         }
 
 
-        //找到ListItem.xml中的兩個TextView(物種學名和中文名)
         TextView text_view = listItemView.findViewById(R.id.day);
         text_view.setText(day.get(position));
         ImageView addImage = listItemView.findViewById(R.id.clockDrug);
